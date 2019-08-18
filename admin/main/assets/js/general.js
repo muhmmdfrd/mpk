@@ -11,7 +11,7 @@ function create_bar_chart(chart_labels,chart_datas){
     data: {
       labels: chart_labels,
       datasets: [{
-        label: '# Jumlah Aspirasi Masuk',
+        label: '# Jumlah Masuk',
         data: chart_datas,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
