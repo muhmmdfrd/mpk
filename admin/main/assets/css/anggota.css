@@ -1,0 +1,82 @@
+#announce{
+  margin: 0vh 2vw 0vh 2vw;
+}
+.info-mpk, .list-angkatan, #announce, .info-angkatan, .list-anggota, .nav-anggota{
+  border-radius: 6px;
+  background-color: white;
+  padding: 20px 2vw;
+}
+.info-mpk{
+  margin: 4vh 2vw;
+}
+.list-angkatan{
+  margin: 4vh 2vw 1vh 2vw;
+}
+.angkatan-break{
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  border-width: 3px;
+}
+.info-angkatan{
+  color: #2ce477;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.nav-anggota{
+  background-color: #008400;
+  color: white;
+  margin: 4vh 2vw 1vh 2vw;
+  padding: calc(2vh + 7px) 2vw 2vh 2vw;
+}
+.list-anggota{
+  margin: 1vh 2vw;
+}
+
+.masa-jabatan-start, .masa-jabatan-end{
+  padding: 3px 12px 5px 12px;
+  display: inline;
+}
+.masa-jabatan-start{
+  background-color: rgba(44,119,244,.1);
+  color: #2c77f4;
+}
+.masa-jabatan-end{
+  background-color: rgba(253,57,122,.1);
+  color: #fd397a; 
+}
+.btn-angkatan{
+  position: absolute;
+  right: 2vw;
+  top: 15px;
+  display: inline;
+  background-color:  #2ce477; 
+  padding: 7px 15px;
+  color:white;
+}
+.image-mpk{
+  border-radius: 100%;
+  width: 20vh;
+  height: 20vh;
+}
+@media screen and (min-height: 800px) {
+  .info-mpk, .list-angkatan, #announce, .info-angkatan{
+    border-radius: 20px;
+    padding: 30px 4vw;
+  }
+  .btn-angkatan{
+    right: 4vw;
+    top: 30px;
+    padding: 7px 25px;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+}
+
+@media (min-height: 750px) and (max-width:1024px) {
+} 

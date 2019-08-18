@@ -1,0 +1,23 @@
+    .day h5 {
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+    .day {
+        height: 13.2857vw;
+    }
+    .calendar-body{
+      width: 100%;
+    }
+
+
+@media (min-height: 800px) {
+    .day {
+      height: 29.6857vw;
+    }
+    .calendar-body{
+      width: 200vw;
+    }
+}

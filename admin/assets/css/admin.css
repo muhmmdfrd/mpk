@@ -1,0 +1,250 @@
+/*CSS Properties to all Webpage in Adminpage*/
+/*Elements Properties*/
+html, body{
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  font-family: "Lato";
+  color: #45465B;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+a, a:hover{
+  text-decoration: none;
+}
+iframe{
+  border: none;
+}
+  h4{
+    color: black !important;
+  }
+  h5{
+    line-height: 1.65;
+    letter-spacing: .2px;
+  }
+
+/*Id Properties*/
+#navbar-admin{
+  position: fixed;
+  width: calc(100% - 50px);
+  height: 60px;
+  line-height: 60px;
+  left: 50px;
+  background-color: white;
+  padding: 0px 20px;
+  z-index: 2;
+}
+#navbar-admin p{display: inline-block}
+
+#sidebar-admin-icon{
+  position: fixed;
+  width: 50px;
+  height: 100%;
+  background-color: #25DD12;
+  padding-top: 60px;
+}
+#sidebar-admin-icon i{
+  color: #eee !important;
+  margin:30px 0px;
+  display: block;
+  font-size: 20px;
+}
+#sidebar-admin{
+  position: fixed;
+  left: 50px;
+  width: 280px;
+  height: 100%;
+  padding-top: 60px;
+}
+#sidebar-admin .icon-desc{
+  box-shadow: 0.5px 0.5px 5px 0.5px #aaa;
+  border-radius: 20px 0px;
+  text-align: center;
+  width: 170px;
+  background-color: white;
+  position: fixed;
+  display: none;
+  margin-top: 23px;
+  margin-left: 15px;
+}
+#sidebar-admin p{
+  margin: 5px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+}
+#content-admin{
+  position: absolute;
+  top: 0;
+  left: 50px;
+  padding-top: 50px;
+  width: calc(100% - 50px);
+  height: 100%;
+}
+#bg-black-admin{
+  display: none;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+#btn-sidebar-admin{
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 100%;
+  height: 120px;
+  line-height: 120px;
+  width: 120px;
+  box-shadow: 5px 5px 20px 5px #aaa;
+  color:#555;
+  background-color: white;
+  font-size: 50px;
+  z-index: 5;
+}
+#iframe-content{
+  width: 100%;
+  height: 100%;
+}
+/*Class Properties*/
+.bottom{
+  position: absolute;
+  margin:0 !important;
+  bottom:30px;
+  left: 17px;
+}
+.title-admin{
+  font-size: 23px;
+}
+.logout-admin{
+  float: right;
+  font-size: 17px;
+  color: #ff2222 !important;
+  font-weight: bold
+}
+  .form{
+    margin-top: 25vh;
+  }
+  .form input{
+    border: 1px solid #e4eaec;
+    width: 100%;
+    border-radius: 20px;
+    padding: 7px 35px;
+    margin:2vh 0;
+  }
+  .form input:focus{
+    outline:none;
+  }
+  .form i{
+    position: absolute;
+  }
+  .icon{
+    padding: 11px 20px;
+    min-width: 40px;
+    margin:2vh 0;
+  }
+  .form input[type=submit]{
+    background-color: rgba(29,208,23,.8);
+    color: white;
+  }
+
+
+@media screen and (min-height: 800px) {
+  h1{
+    font-size: 60px !important;
+    margin-bottom: 60px;
+  }
+  h3{
+    font-size: 40px !important;
+    margin-bottom: 30px;
+  }
+  h5{
+    font-size: 29px !important;
+    margin-bottom: 15px;
+  }
+  .form{
+    margin: 25vh 4vw 0 4vh;
+  }
+  .form input{
+    padding: calc(1vh + 7px) calc(4vw + 35px);
+    width:100%;
+    border-radius: 4vh;
+  }
+  .form input, .form i{
+    font-size: 32px;
+  }
+  .icon{
+    padding: calc(1vh + 16px) 4vw;
+    min-width: 40px;
+  }
+
+  #sidebar-admin, #sidebar-admin-icon{
+    display: none;
+    z-index: 4;
+  }
+  #sidebar-admin-icon{
+    width: 120px;
+  }
+  #sidebar-admin-icon i{
+    margin:60px 0px;
+    font-size: 50px;
+  }
+  .bottom{
+    left: 40px;
+  }
+  #sidebar-admin{
+    left: 120px;
+    width: 500px;
+    background-color: white;
+  }
+  #sidebar-admin .icon-desc{
+    box-shadow: none;
+    border-radius:none;
+    text-align: initial;
+    position: initial;
+    background-color: initial;
+    display: block;
+    width: 100%;
+    z-index: 4;
+  }
+  #sidebar-admin p{
+    margin:58px 30px;
+    font-size: 37px;
+  }
+  #navbar-admin{
+    left: 0;
+    width: 100%;
+    height: 130px;
+    padding: 34px;
+    box-shadow: 0px 8px 5px #aaa;
+  }
+  #content-admin{
+    padding-top: 110px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #btn-sidebar-admin{
+    display: initial;
+  }
+  .title-admin{
+    font-size: 40px;
+  }
+  .logout-admin{
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+}
+
+@media (min-height: 750px) and (max-width:1024px) {
+} 
