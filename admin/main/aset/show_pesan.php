@@ -14,7 +14,7 @@
     echo "<h4><b>Detail data aspirasi dari : ".$row['nama_pengirim']."</b></h4>";
     echo "<h4>".$row['penerima']."</h4>";
     echo "<p>Nama pengirim : ".$row['nama_pengirim']."(".$row['kontak'].")</p>";
-    echo "<p>".$row['isi_aspirasi']."</p>";
+    echo "<p>".$row['isi_pesan']."</p>";
     echo "<p> Dikirim Tanggal : ".$row['tgl_kirim']."</p>";
     echo "</div>";
 

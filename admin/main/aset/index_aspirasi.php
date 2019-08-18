@@ -21,10 +21,10 @@
   $no = 1;
   while ($row = $stat->fetch(PDO::FETCH_ASSOC)) {
   if ($no % 2 == 1){
-    echo"    <tr onclick='show_aset('show_aspirasi',".$row['aspirasi_id'].")' >";
+    echo"    <tr onclick='show_aset(\"show_aspirasi\",\"".$row['aspirasi_id']."\")' >";
   }
   else{
-    echo"    <tr onclick='show_aset('show_aspirasi',".$row['aspirasi_id'].")' style='background-color:rgba(27,221,18,0.2)' >";
+    echo"    <tr onclick='show_aset(\"show_aspirasi\",\"".$row['aspirasi_id']."\")' style='background-color:rgba(27,221,18,0.2)' >";
   }
   echo"        <td class='text-center'>".$no."</td>";
   echo"        <td >".$row['nama_pengirim']."</td>";

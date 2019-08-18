@@ -74,14 +74,14 @@
     <div class='col-lg-12 mobile-slide' id='box-filter4'>
       <div class='konten'>
         <div class="form">
-          <h4><b>Seacrh Nama Pengirim</b></h4>
+          <h4><b>Search Nama Pengirim</b></h4>
           <br>
           <div class="row">
             <div class="col-lg-3">
             <input id='name' placeholder="Cari nama pengirim">
             </div>
             <div class="col-lg-2 col-lg-offset-1">
-            <input type="submit" value="Seacrh" onclick="index_aset('index_pesan','name')">
+            <input type="submit" value="Search" onclick="index_aset('index_pesan','name')">
             </div>
           </div>
         </div>

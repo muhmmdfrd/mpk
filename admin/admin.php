@@ -36,7 +36,7 @@
   </div>
 
   <div id="content-admin">
-    <iframe id="iframe-content" name="iframe_content" src="main/proker.php"></iframe>
+    <iframe id="iframe-content" name="iframe_content" src="main/aspirasi.php"></iframe>
   </div>
 
   <!--Script Tag-->
